@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+:root {
+  --purple-color: #a729f5;
+  --dark-navy-color: #313e51;
+  --navy-color: #3b4d66;
+  --grey-navy-color: #626c7f;
+  --light-bluish-color: #abc1e1;
+  --light-grey-color: #f4f6fa;
+  --white-color: #fff;
+  --green-color: #26d782;
+  --red-color: #ee5454;
+}

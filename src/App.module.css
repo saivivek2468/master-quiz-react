@@ -1,0 +1,9 @@
+.backgroundContainer {
+  background-color: var(--dark-navy-color);
+  background-image: url("./assets/images/pattern-background-desktop-dark.svg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+}

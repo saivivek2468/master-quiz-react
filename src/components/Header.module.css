@@ -1,0 +1,23 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.headerDetails {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+}
+.headerDetails img {
+  padding: 4px;
+  border-radius: 8px;
+}

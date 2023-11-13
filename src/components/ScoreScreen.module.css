@@ -1,0 +1,98 @@
+.heading1 {
+  font-size: 53px;
+  font-weight: 300;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.heading2 {
+  font-size: 61px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+}
+
+.scoreCard {
+  padding: 48px;
+  border-radius: 24px;
+  box-shadow: 0 16px 40px 0 rgba(49, 62, 81, 0.14);
+  background-color: var(--navy-color);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreCardDetails {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+}
+
+.scoreCardDetails img {
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.scoreCard .score {
+  font-size: 144px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+}
+
+.scoreCard .length {
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--light-bluish-color);
+}
+
+.btn {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  border-radius: 24px;
+  box-shadow: 0 16px 40px 0 rgba(49, 62, 81, 0.14);
+  background-color: var(--purple-color);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .heading1,
+  .heading2 {
+    font-size: 40px;
+  }
+
+  .scoreCard {
+    padding: 16px;
+  }
+
+  .scoreCardDetails {
+    font-size: 18px;
+  }
+  .scoreCard .score {
+    font-size: 88px;
+  }
+  .scoreCard .length {
+    font-size: 18px;
+  }
+  .btn {
+    padding: 16px;
+    font-size: 20px;
+    width: 85vw;
+  }
+}
