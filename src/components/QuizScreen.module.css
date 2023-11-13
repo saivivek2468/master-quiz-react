@@ -41,13 +41,8 @@ progress {
 
 .options .option[disabled]:hover {
   cursor: not-allowed;
-  border: none;
 }
 
-.options .option[disabled]:hover .optionAlphabets {
-  background-color: var(--light-grey-color);
-  color: var(--grey-navy-color);
-}
 .options .option.greenColor {
   border: 3px solid var(--green-color);
 }
@@ -61,18 +56,6 @@ progress {
   align-items: center;
   gap: 20px;
 }
-
-/* .options .option:hover {
-  border: solid 3px var(--purple-color);
-  transition: border 0.3s ease-in;
-} */
-
-.options .option:hover .optionAlphabets {
-  background-color: var(--purple-color);
-  color: #fff;
-  transition: all 0.3s ease-in;
-}
-
 .options .option .optionAlphabets {
   background-color: var(--light-grey-color);
   border-radius: 8px;
