@@ -12,7 +12,7 @@ function Header() {
         <img src={image} style={{ backgroundColor: `${color}` }} />
         <p>{title}</p>
       </div>
-      <div className={styles.modes}>Modes</div>
+      {/* <div className={styles.modes}>Modes</div> */}
     </div>
   );
 }
